@@ -9,7 +9,14 @@ import { PurchaseModule } from './purchase/purchase.module';
 import { PurchaseItemModule } from './purchase-item/purchase-item.module';
 
 @Module({
-  imports: [ProductModule, PrismaModule, SaleModule, SaleItemModule, PurchaseModule, PurchaseItemModule],
+  imports: [
+    ProductModule,
+    PrismaModule,
+    SaleModule,
+    SaleItemModule,
+    PurchaseModule,
+    PurchaseItemModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
